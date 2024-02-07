@@ -16,4 +16,5 @@ public void sierpinski(int x, int y, int len)
     triangle(x, y, x+len/2, y+len, x+len, y);	
   } else {
     sierpinski(x, y, len/2);
+  }
 }
